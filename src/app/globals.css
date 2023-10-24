@@ -36,3 +36,22 @@ footer{
   color: black;
   border-top: 1px solid #eaeaea;
 }
+.App{
+  font-family: sans-serif;
+  text-align: center;
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+
+  
+}
+.col{
+  border: 1px solid gray;
+  padding: 2rem;
+  border-radius: 0 px;
+}
+img {
+  width: 100%;
+}
