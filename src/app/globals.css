@@ -42,7 +42,7 @@ footer{
 }
 .row{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(3,1fr);
   gap: 2rem;
 
   
@@ -54,4 +54,13 @@ footer{
 }
 img {
   width: 100%;
+}
+.container{
+  margin: 10px auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d6ccc4;
+  
 }
